@@ -1,12 +1,15 @@
+#center_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .movie_poster{
   width: 150px;
   height: 221px;
 }
-
-#container{
-
-}
-
-#center_column{
-  
+@media (max-width: 300px) {
+  .movie_poster{
+    width: 100px;
+    height: 150px;
+  }
 }
